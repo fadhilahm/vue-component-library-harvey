@@ -1,0 +1,42 @@
+{
+  "name": "vue-component-library-harvey",
+  "version": "1.0.0",
+  "description": "A project to create my own Vue component library.",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadhilahm/vue-component-library-harvey.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "fadhilahm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadhilahm/vue-component-library-harvey/issues"
+  },
+  "homepage": "https://github.com/fadhilahm/vue-component-library-harvey#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@vue/compiler-sfc": "^3.2.20",
+    "rollup": "^2.58.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^4.4.4",
+    "vue": "^2.6.14",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2"
+  }
+}
