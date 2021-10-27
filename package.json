@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@vue/compiler-sfc": "^3.2.20",
     "rollup": "^2.58.3",
+    "rollup-plugin-import-css": "^3.0.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.30.0",
     "rollup-plugin-vue": "^6.0.0",
