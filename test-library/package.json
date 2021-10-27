@@ -1,6 +1,6 @@
 {
   "name": "vue-component-library-harvey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A project to create my own Vue component library.",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
