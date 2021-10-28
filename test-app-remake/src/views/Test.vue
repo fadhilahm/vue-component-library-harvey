@@ -8,10 +8,9 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-
-import { SampleComponent } from "vue-component-library-harvey";
+import { SampleComponent } from "vue-component-library";
 
 @Component({
   components: {
